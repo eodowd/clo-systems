@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="esp.jnlp">
+  <information>
+    <title>esp</title>
+    <vendor>desktop</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="esp.jar" size="50525" download="eager" />
+    <jar href="lib\jersey-client.jar" size="196494" download="eager" />
+    <jar href="lib\jersey-common.jar" size="1141593" download="eager" />
+    <jar href="lib\jersey-container-servlet-core.jar" size="73338" download="eager" />
+    <jar href="lib\jersey-container-servlet.jar" size="32135" download="eager" />
+    <jar href="lib\jersey-hk2.jar" size="76530" download="eager" />
+    <jar href="lib\jersey-media-jaxb.jar" size="85920" download="eager" />
+    <jar href="lib\jersey-media-json-binding.jar" size="25921" download="eager" />
+    <jar href="lib\jersey-media-sse.jar" size="77737" download="eager" />
+    <jar href="lib\jersey-server.jar" size="935993" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="esp" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="esp.Esp"  name="esp" />
+  <update check="always"/>
+</jnlp>
